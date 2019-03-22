@@ -3,7 +3,7 @@
 // @import '../../styles/variables.scss';
 
 // this works ember-cli-sass but breaks in IDE
-@import '../../../app/styles/variables.scss';
+@import 'styles/variables.scss';
 
 body {
     background: $color_primary;
