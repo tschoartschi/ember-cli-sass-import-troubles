@@ -1,0 +1,10 @@
+// this breaks ember-cli-sass but works in IDE
+// comment next line if you want to see that it works
+// @import '../../styles/variables.scss';
+
+// this works ember-cli-sass but breaks in IDE
+@import '../../../app/styles/variables.scss';
+
+body {
+    background: $color_primary;
+}
